@@ -12,7 +12,8 @@ class TipViewController: UIViewController {
 
     @IBOutlet weak var tipLabel: UILabel!
     
-    @IBOutlet weak var TotalLabel: UILabel!
+    
+    @IBOutlet weak var totalLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
@@ -322,7 +323,7 @@ class TipViewController: UIViewController {
         let total = bill + tip
         
         tipLabel.text = String(format: "$%.2f", tip)
-        TotalLabel.text = String(format: "$%.2f", total)
+        totalLabel.text = String(format: "$%.2f", total)
     }
 }
 

@@ -12,8 +12,6 @@
         <!--Tip View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="oYO-OF-c6m"/>
                 <viewController id="BYZ-38-t0r" customClass="TipViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -326,7 +324,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="TotalLabel" destination="7bM-cL-eC8" id="CTx-jv-M2i"/>
                         <outlet property="digitAtIndexFour" destination="c5v-s7-KIk" id="HjK-GS-P1W"/>
                         <outlet property="digitAtIndexOne" destination="S7P-71-UAo" id="Vca-iU-6Pp"/>
                         <outlet property="digitAtIndexThree" destination="e8V-0i-cmi" id="6Ef-EA-YqW"/>
@@ -337,8 +334,11 @@
                         <outlet property="tenthLabel" destination="PCq-qf-v9V" id="HVf-uJ-IH3"/>
                         <outlet property="tipControl" destination="YeE-Hm-iR4" id="bgt-X9-7hc"/>
                         <outlet property="tipLabel" destination="cS3-AN-lg0" id="q7j-ES-MUC"/>
+                        <outlet property="totalLabel" destination="7bM-cL-eC8" id="Aaw-A2-hn6"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="oYO-OF-c6m"/>
             </objects>
             <point key="canvasLocation" x="537.5" y="152.5"/>
         </scene>
